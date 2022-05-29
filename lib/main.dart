@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:section6_layout_challenge/pages/challenge_1.dart';
 
 void main() {
   runApp(MyApp());
@@ -9,10 +10,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Container(
-        child: Text("Section 6"),
-      ),
-    );
+    return Challenge1();
+
   }
 }
